@@ -5,7 +5,8 @@
   },
   "functions": [
     {
-      "source": "examples/functions",
+      "source": "dist/examples/functions",
+      "runtime": "nodejs20",
       "codebase": "default",
       "ignore": [
         "node_modules",
@@ -14,7 +15,7 @@
         "firebase-debug.*.log",
         "*.local"
       ],
-      "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run build"]
+      "predeploy": ["npx nx build functions"]
     }
   ],
   "emulators": {
