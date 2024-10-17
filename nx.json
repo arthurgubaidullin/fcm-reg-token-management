@@ -21,8 +21,16 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     },
-    "lint": { "options": { "fix": true } },
-    "test": { "options": { "passWithNoTests": true } }
+    "lint": {
+      "options": {
+        "fix": true
+      }
+    },
+    "test": {
+      "options": {
+        "passWithNoTests": true
+      }
+    }
   },
   "plugins": [
     {
@@ -37,5 +45,17 @@
         "targetName": "test"
       }
     }
-  ]
+  ],
+  "generators": {
+    "@nx/js": {
+      "library": {
+        "bundler": "tsc",
+        "linter": "eslint",
+        "unitTestRunner": "jest",
+        "minimal": true,
+        "strict": true,
+        "simpleName": true
+      }
+    }
+  }
 }
