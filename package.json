@@ -1,0 +1,12 @@
+{
+  "name": "@arthurgubaidullin/source",
+  "version": "0.0.0",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/js": "19.8.5",
+    "@nx/workspace": "19.8.5",
+    "nx": "19.8.5"
+  }
+}
