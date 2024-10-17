@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": ["npx", "nx", "run-many", "-t", "lint", "test", "build"],
+      "problemMatcher": ["$tsc", "$eslint-stylish", "$eslint-compact"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "nx: lint test build",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    }
+  ]
+}
