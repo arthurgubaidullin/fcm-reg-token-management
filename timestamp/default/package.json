@@ -1,0 +1,12 @@
+{
+  "name": "@arthurgubaidullin/default-timestamp",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "firebase": "^10.14.1"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "private": true
+}
