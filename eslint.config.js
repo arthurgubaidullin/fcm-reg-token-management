@@ -23,6 +23,8 @@ module.exports = [
           ],
         },
       ],
+      complexity: ['error', 2],
+      '@typescript-eslint/method-signature-style': 'error',
     },
   },
   {
