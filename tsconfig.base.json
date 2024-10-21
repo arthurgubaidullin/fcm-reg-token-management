@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@arthurgubaidullin/default-device-id": [
+        "device-id/default/src/index.ts"
+      ],
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/sandbox": ["sandbox/src/index.ts"]
     }
