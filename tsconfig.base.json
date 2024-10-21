@@ -23,7 +23,8 @@
       ],
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/sandbox": ["sandbox/src/index.ts"],
-      "@arthurgubaidullin/timestamp": ["timestamp/type/src/index.ts"]
+      "@arthurgubaidullin/timestamp": ["timestamp/type/src/index.ts"],
+      "@arthurgubaidullin/user": ["user/type/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
