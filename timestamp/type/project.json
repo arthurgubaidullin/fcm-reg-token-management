@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "timestamp/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/timestamp/type",
+        "main": "timestamp/type/src/index.ts",
+        "tsConfig": "timestamp/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
