@@ -32,6 +32,9 @@
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/fake-messaging": ["messaging/fake/src/index.ts"],
       "@arthurgubaidullin/in-memory-auth": ["auth/in-memory/src/index.ts"],
+      "@arthurgubaidullin/in-memory-reg-token-set-repository": [
+        "reg-token-set-repository/in-memory/src/index.ts"
+      ],
       "@arthurgubaidullin/messaging": ["messaging/type/src/index.ts"],
       "@arthurgubaidullin/reg-token": ["reg-token/type/src/index.ts"],
       "@arthurgubaidullin/reg-token-set": ["reg-token-set/type/src/index.ts"],
