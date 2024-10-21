@@ -1,5 +1,5 @@
 {
-  "name": "@arthurgubaidullin/user-reg-token-set",
+  "name": "@arthurgubaidullin/reg-token-set",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",

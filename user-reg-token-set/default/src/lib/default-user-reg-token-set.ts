@@ -6,7 +6,7 @@ import { UserId } from '@arthurgubaidullin/user';
 import {
   SimplifiedUserRegTokenSet,
   UserRegTokenSet,
-} from '@arthurgubaidullin/user-reg-token-set';
+} from '@arthurgubaidullin/reg-token-set';
 
 const TWO_HUNDRED_SEVENTY_DAYS_IN_MILLIS = 270 * 24 * 60 * 60 * 1000;
 
