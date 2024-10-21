@@ -18,6 +18,9 @@
       "@arthurgubaidullin/default-device-id": [
         "device-id/default/src/index.ts"
       ],
+      "@arthurgubaidullin/default-reg-token": [
+        "reg-token/default/src/index.ts"
+      ],
       "@arthurgubaidullin/default-timestamp": [
         "timestamp/default/src/index.ts"
       ],
