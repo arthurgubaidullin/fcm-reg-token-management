@@ -15,12 +15,7 @@ export interface SimplifiedUserRegTokenSet {
 }
 
 export interface UserRegTokenSet {
-  readonly userId: UserId;
-  readonly tokens: Map<DeviceId, RegToken>;
-
+  readonly tokens: () => Iterator<RegToken, RegToken | undefined, RegToken>;
+  readonly updateToken: (now: Timestamp, regToken: RegToken) => void;
   readonly toJSON: () => SimplifiedUserRegTokenSet;
-
-  readonly deletedAt: Timestamp;
-  readonly updatedAt: Timestamp;
-  readonly createdAt: Timestamp;
 }
