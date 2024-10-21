@@ -23,6 +23,7 @@
       ],
       "@arthurgubaidullin/default-user": ["user/default/src/index.ts"],
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
+      "@arthurgubaidullin/reg-token": ["reg-token/type/src/index.ts"],
       "@arthurgubaidullin/sandbox": ["sandbox/src/index.ts"],
       "@arthurgubaidullin/timestamp": ["timestamp/type/src/index.ts"],
       "@arthurgubaidullin/user": ["user/type/src/index.ts"]
