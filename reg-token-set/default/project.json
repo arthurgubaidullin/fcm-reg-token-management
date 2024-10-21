@@ -1,7 +1,7 @@
 {
-  "name": "default-user-reg-token-set",
+  "name": "default-reg-token-set",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "user-reg-token-set/default/src",
+  "sourceRoot": "reg-token-set/default/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,9 +9,9 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/user-reg-token-set/default",
-        "main": "user-reg-token-set/default/src/index.ts",
-        "tsConfig": "user-reg-token-set/default/tsconfig.lib.json",
+        "outputPath": "dist/reg-token-set/default",
+        "main": "reg-token-set/default/src/index.ts",
+        "tsConfig": "reg-token-set/default/tsconfig.lib.json",
         "assets": []
       }
     }

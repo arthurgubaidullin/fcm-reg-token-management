@@ -1,5 +1,5 @@
 {
-  "name": "@arthurgubaidullin/default-user-reg-token-set",
+  "name": "@arthurgubaidullin/default-reg-token-set",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
@@ -8,7 +8,7 @@
     "@arthurgubaidullin/default-timestamp": "0.0.1",
     "@arthurgubaidullin/timestamp": "0.0.1",
     "@arthurgubaidullin/user": "0.0.1",
-    "@arthurgubaidullin/user-reg-token-set": "0.0.1"
+    "@arthurgubaidullin/reg-token-set": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

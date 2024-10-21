@@ -22,13 +22,13 @@
       "@arthurgubaidullin/default-reg-token": [
         "reg-token/default/src/index.ts"
       ],
+      "@arthurgubaidullin/default-reg-token-set": [
+        "reg-token-set/default/src/index.ts"
+      ],
       "@arthurgubaidullin/default-timestamp": [
         "timestamp/default/src/index.ts"
       ],
       "@arthurgubaidullin/default-user": ["user/default/src/index.ts"],
-      "@arthurgubaidullin/default-user-reg-token-set": [
-        "user-reg-token-set/default/src/index.ts"
-      ],
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/fake-messaging": ["messaging/fake/src/index.ts"],
       "@arthurgubaidullin/in-memory-auth": ["auth/in-memory/src/index.ts"],
