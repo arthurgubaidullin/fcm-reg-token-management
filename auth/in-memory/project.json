@@ -1,0 +1,19 @@
+{
+  "name": "in-memory-auth",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "auth/in-memory/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/auth/in-memory",
+        "main": "auth/in-memory/src/index.ts",
+        "tsConfig": "auth/in-memory/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
