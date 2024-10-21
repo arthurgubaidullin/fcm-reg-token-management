@@ -6,7 +6,7 @@ import { UserId } from '@arthurgubaidullin/user';
 export interface SimplifiedUserRegTokenSet {
   readonly userId: UserId;
   readonly tokens: ReadonlyArray<{
-    readonly device: DeviceId;
+    readonly deviceId: DeviceId;
     readonly value: RegToken;
   }>;
   readonly deletedAt: Timestamp;
