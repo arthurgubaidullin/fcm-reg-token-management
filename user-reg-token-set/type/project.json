@@ -1,0 +1,19 @@
+{
+  "name": "user-reg-token-set",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "user-reg-token-set/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/user-reg-token-set/type",
+        "main": "user-reg-token-set/type/src/index.ts",
+        "tsConfig": "user-reg-token-set/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
