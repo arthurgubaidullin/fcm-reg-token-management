@@ -1,4 +1,4 @@
-import { UserId } from '@arthurgubaidullin/user';
+import { UserId } from '@arthurgubaidullin/user-type';
 import { DeviceId } from '@arthurgubaidullin/device-id-type';
 import { RegToken } from '@arthurgubaidullin/reg-token';
 

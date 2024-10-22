@@ -1,5 +1,5 @@
 {
-  "name": "user",
+  "name": "user-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "user/type/src",
   "projectType": "library",

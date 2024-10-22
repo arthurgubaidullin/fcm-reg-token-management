@@ -3,7 +3,7 @@ import { DefaultDeviceId } from '@arthurgubaidullin/default-device-id';
 import { DefaultUserId } from '@arthurgubaidullin/default-user';
 import { RegToken, SimplifiedRegToken } from '@arthurgubaidullin/reg-token';
 import { Timestamp } from '@arthurgubaidullin/timestamp-type';
-import { UserId } from '@arthurgubaidullin/user';
+import { UserId } from '@arthurgubaidullin/user-type';
 
 export class DefaultRegToken implements RegToken {
   readonly _tag = 'RegToken';

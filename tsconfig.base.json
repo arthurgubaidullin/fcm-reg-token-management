@@ -59,7 +59,7 @@
         "reg-token-storage/type/src/index.ts"
       ],
       "@arthurgubaidullin/timestamp-type": ["timestamp/type/src/index.ts"],
-      "@arthurgubaidullin/user": ["user/type/src/index.ts"]
+      "@arthurgubaidullin/user-type": ["user/type/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

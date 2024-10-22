@@ -1,4 +1,4 @@
-import { UserId } from '@arthurgubaidullin/user';
+import { UserId } from '@arthurgubaidullin/user-type';
 
 export class DefaultUserId implements UserId {
   readonly _tag = 'UserId' as const;
