@@ -40,6 +40,9 @@
       "@arthurgubaidullin/default-user": ["user/default/src/index.ts"],
       "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/fake-messaging": ["messaging/fake/src/index.ts"],
+      "@arthurgubaidullin/firebase-auth-adapter": [
+        "auth/firebase-adapter/src/index.ts"
+      ],
       "@arthurgubaidullin/in-memory-auth": ["auth/in-memory/src/index.ts"],
       "@arthurgubaidullin/in-memory-reg-token-set-repository": [
         "reg-token-set-repository/in-memory/src/index.ts"
