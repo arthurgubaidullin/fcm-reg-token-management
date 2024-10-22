@@ -22,6 +22,9 @@
       "@arthurgubaidullin/browser-program": [
         "program/browser/type/src/index.ts"
       ],
+      "@arthurgubaidullin/default-browser-program": [
+        "program/browser/default/src/index.ts"
+      ],
       "@arthurgubaidullin/default-device-id": [
         "device-id/default/src/index.ts"
       ],
