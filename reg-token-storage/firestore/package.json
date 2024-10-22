@@ -8,9 +8,9 @@
     "@arthurgubaidullin/reg-token-storage": "0.0.1",
     "@arthurgubaidullin/user": "0.0.1",
     "firebase": "^10.14.1",
-    "io-ts": "^2.2.21",
     "fp-ts": "^2.16.9",
-    "@arthurgubaidullin/default-reg-token": "0.0.1"
+    "@arthurgubaidullin/default-reg-token": "0.0.1",
+    "@arthurgubaidullin/reg-token-document": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

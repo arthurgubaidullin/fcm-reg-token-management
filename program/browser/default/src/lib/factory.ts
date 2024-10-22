@@ -6,6 +6,8 @@ import { FirebaseMessagingAdapter } from '@arthurgubaidullin/firebase-messaging-
 import { FirebaseDeviceAdapter } from '@arthurgubaidullin/firebase-device-adapter';
 import { getInstallations } from 'firebase/installations';
 import { getMessaging } from 'firebase/messaging';
+import { RegTokenFirestoreStorage } from '@arthurgubaidullin/reg-token-firestore-storage';
+import { getFirestore } from 'firebase/firestore';
 
 let instance: DefaultBrowserProgram | null = null;
 
@@ -21,8 +23,11 @@ export class DefaultBrouserPropramFactory {
         device,
         auth
       );
+      const regTokenStorage = new RegTokenFirestoreStorage(
+        getFirestore(firebaseApp)
+      );
 
-      instance = new DefaultBrowserProgram(auth, messaging);
+      instance = new DefaultBrowserProgram(auth, messaging, regTokenStorage);
     }
     return instance;
   }
