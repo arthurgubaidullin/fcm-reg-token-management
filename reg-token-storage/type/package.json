@@ -2,7 +2,10 @@
   "name": "@arthurgubaidullin/reg-token-storage",
   "version": "0.0.1",
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@arthurgubaidullin/user": "0.0.1",
+    "@arthurgubaidullin/device-id": "0.0.1",
+    "@arthurgubaidullin/reg-token": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
