@@ -1,4 +1,4 @@
-import { Timestamp } from '@arthurgubaidullin/timestamp';
+import { Timestamp } from '@arthurgubaidullin/timestamp-type';
 import { DeviceId } from '@arthurgubaidullin/device-id';
 import { UserId } from '@arthurgubaidullin/user';
 

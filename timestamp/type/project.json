@@ -1,5 +1,5 @@
 {
-  "name": "timestamp",
+  "name": "timestamp-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "timestamp/type/src",
   "projectType": "library",

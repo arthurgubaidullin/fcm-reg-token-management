@@ -2,7 +2,7 @@ import { DefaultRegToken } from '@arthurgubaidullin/default-reg-token';
 import { Device } from '@arthurgubaidullin/device';
 import { Messaging } from '@arthurgubaidullin/messaging';
 import { Auth } from '@arthurgubaidullin/auth';
-import { Timestamp } from '@arthurgubaidullin/timestamp';
+import { Timestamp } from '@arthurgubaidullin/timestamp-type';
 import * as FirebaseMessaging from 'firebase/messaging';
 
 export class FirebaseMessagingAdapter implements Messaging {

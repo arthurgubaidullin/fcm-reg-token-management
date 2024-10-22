@@ -1,6 +1,6 @@
 import { DeviceId } from '@arthurgubaidullin/device-id';
 import { RegToken } from '@arthurgubaidullin/reg-token';
-import { Timestamp } from '@arthurgubaidullin/timestamp';
+import { Timestamp } from '@arthurgubaidullin/timestamp-type';
 import { UserId } from '@arthurgubaidullin/user';
 
 export interface SimplifiedUserRegTokenSet {
