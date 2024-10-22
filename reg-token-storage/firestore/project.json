@@ -1,0 +1,19 @@
+{
+  "name": "reg-token-firestore-storage",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "reg-token-storage/firestore/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/reg-token-storage/firestore",
+        "main": "reg-token-storage/firestore/src/index.ts",
+        "tsConfig": "reg-token-storage/firestore/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
