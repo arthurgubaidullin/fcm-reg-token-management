@@ -6,7 +6,8 @@
     "@arthurgubaidullin/default-reg-token": "0.0.1",
     "@arthurgubaidullin/default-timestamp": "0.0.1",
     "@arthurgubaidullin/messaging": "0.0.1",
-    "@arthurgubaidullin/default-device-id": "0.0.1"
+    "@arthurgubaidullin/default-device-id": "0.0.1",
+    "@arthurgubaidullin/default-user": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

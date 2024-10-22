@@ -18,7 +18,8 @@ export class DefaultBrouserPropramFactory {
 
       const messaging = new FirebaseMessagingAdapter(
         getMessaging(firebaseApp),
-        device
+        device,
+        auth
       );
 
       instance = new DefaultBrowserProgram(auth, messaging);
