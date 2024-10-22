@@ -1,5 +1,5 @@
 import { DeviceId } from '@arthurgubaidullin/device-id-type';
-import { RegToken } from '@arthurgubaidullin/reg-token';
+import { RegToken } from '@arthurgubaidullin/reg-token-type';
 import { DefaultRegToken } from '@arthurgubaidullin/default-reg-token';
 import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage-type';
 import { UserId } from '@arthurgubaidullin/user-type';

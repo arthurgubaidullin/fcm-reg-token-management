@@ -1,7 +1,10 @@
 import { DeviceId } from '@arthurgubaidullin/device-id-type';
 import { DefaultDeviceId } from '@arthurgubaidullin/default-device-id';
 import { DefaultUserId } from '@arthurgubaidullin/default-user';
-import { RegToken, SimplifiedRegToken } from '@arthurgubaidullin/reg-token';
+import {
+  RegToken,
+  SimplifiedRegToken,
+} from '@arthurgubaidullin/reg-token-type';
 import { Timestamp } from '@arthurgubaidullin/timestamp-type';
 import { UserId } from '@arthurgubaidullin/user-type';
 

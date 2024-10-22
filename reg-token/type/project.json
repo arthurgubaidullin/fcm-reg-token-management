@@ -1,5 +1,5 @@
 {
-  "name": "reg-token",
+  "name": "reg-token-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "reg-token/type/src",
   "projectType": "library",

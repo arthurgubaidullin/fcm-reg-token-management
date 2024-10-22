@@ -1,4 +1,4 @@
-import { RegToken } from '@arthurgubaidullin/reg-token';
+import { RegToken } from '@arthurgubaidullin/reg-token-type';
 import { Timestamp } from '@arthurgubaidullin/timestamp-type';
 
 export interface Messaging {
