@@ -1,5 +1,5 @@
 export type Stop = () => void;
 
-export interface Program {
+export interface BrowserProgram {
   readonly start: () => Stop;
 }
