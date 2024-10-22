@@ -1,3 +1,7 @@
+export interface TimestampFactory {
+  readonly now: () => Timestamp;
+}
+
 export interface SimplifiedTimestamp {
   readonly seconds: number;
   readonly nanoseconds: number;

@@ -1,1 +1,1 @@
-export * from './lib/default-timestamp';
+export * from './lib/timestamp-factory';
