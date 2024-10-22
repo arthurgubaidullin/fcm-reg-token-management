@@ -1,5 +1,5 @@
 import { DefaultDeviceId } from '@arthurgubaidullin/default-device-id';
-import { Device } from '@arthurgubaidullin/device';
+import { Device } from '@arthurgubaidullin/device-type';
 import * as FirebaseInstallations from 'firebase/installations';
 
 export class FirebaseDeviceAdapter implements Device {

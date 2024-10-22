@@ -1,5 +1,5 @@
 import { DefaultRegToken } from '@arthurgubaidullin/default-reg-token';
-import { Device } from '@arthurgubaidullin/device';
+import { Device } from '@arthurgubaidullin/device-type';
 import { Messaging } from '@arthurgubaidullin/messaging-type';
 import { Auth } from '@arthurgubaidullin/auth-type';
 import { Timestamp } from '@arthurgubaidullin/timestamp-type';

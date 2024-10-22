@@ -1,5 +1,5 @@
 {
-  "name": "device",
+  "name": "device-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "device/type/src",
   "projectType": "library",
