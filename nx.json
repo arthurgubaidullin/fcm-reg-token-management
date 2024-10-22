@@ -79,14 +79,17 @@
         "babel": true,
         "style": "tailwind",
         "linter": "eslint",
-        "bundler": "vite"
+        "bundler": "vite",
+        "unitTestRunner": "vitest"
       },
       "component": {
-        "style": "tailwind"
+        "style": "tailwind",
+        "unitTestRunner": "vitest"
       },
       "library": {
         "style": "tailwind",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "vitest"
       }
     }
   }
