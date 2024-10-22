@@ -5,9 +5,9 @@
     "tslib": "^2.3.0",
     "@arthurgubaidullin/messaging": "0.0.1",
     "@arthurgubaidullin/default-reg-token": "0.0.1",
-    "@arthurgubaidullin/default-device-id": "0.0.1",
     "firebase": "^10.14.1",
-    "@arthurgubaidullin/timestamp": "0.0.1"
+    "@arthurgubaidullin/timestamp": "0.0.1",
+    "@arthurgubaidullin/device": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

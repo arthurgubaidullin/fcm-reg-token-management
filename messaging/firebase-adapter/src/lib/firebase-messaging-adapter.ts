@@ -1,30 +1,22 @@
-import { Messaging } from '@arthurgubaidullin/messaging';
 import { DefaultRegToken } from '@arthurgubaidullin/default-reg-token';
-import { DefaultDeviceId } from '@arthurgubaidullin/default-device-id';
-import * as FirebaseMessaging from 'firebase/messaging';
-import * as FirebaseInstallations from 'firebase/installations';
+import { Device } from '@arthurgubaidullin/device';
+import { Messaging } from '@arthurgubaidullin/messaging';
 import { Timestamp } from '@arthurgubaidullin/timestamp';
+import * as FirebaseMessaging from 'firebase/messaging';
 
 export class FirebaseMessagingAdapter implements Messaging {
   private messaging: FirebaseMessaging.Messaging;
-  private installations: FirebaseInstallations.Installations;
+  private device: Device;
 
-  constructor(
-    messaging: FirebaseMessaging.Messaging,
-    installations: FirebaseInstallations.Installations
-  ) {
+  constructor(messaging: FirebaseMessaging.Messaging, device: Device) {
     this.messaging = messaging;
-    this.installations = installations;
+    this.device = device;
   }
 
   async getToken(now: Timestamp) {
     const regTokenAsString = FirebaseMessaging.getToken(this.messaging);
-    const deviceIdAsString = FirebaseInstallations.getId(this.installations);
+    const deviceId = this.device.deviceId();
 
-    return new DefaultRegToken(
-      await regTokenAsString,
-      new DefaultDeviceId(await deviceIdAsString),
-      now
-    );
+    return new DefaultRegToken(await regTokenAsString, await deviceId, now);
   }
 }
