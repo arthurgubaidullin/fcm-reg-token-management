@@ -1,0 +1,19 @@
+{
+  "name": "permissions",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "permissions/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/permissions/type",
+        "main": "permissions/type/src/index.ts",
+        "tsConfig": "permissions/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
