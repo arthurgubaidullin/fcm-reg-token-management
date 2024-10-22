@@ -1,4 +1,4 @@
-import { DeviceId } from '@arthurgubaidullin/device-id';
+import { DeviceId } from '@arthurgubaidullin/device-id-type';
 import { DefaultDeviceId } from '@arthurgubaidullin/default-device-id';
 import { DefaultUserId } from '@arthurgubaidullin/default-user';
 import { RegToken, SimplifiedRegToken } from '@arthurgubaidullin/reg-token';

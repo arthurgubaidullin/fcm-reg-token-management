@@ -1,4 +1,4 @@
-import { DeviceId } from '@arthurgubaidullin/device-id';
+import { DeviceId } from '@arthurgubaidullin/device-id-type';
 
 export class DefaultDeviceId implements DeviceId {
   readonly _tag = 'DeviceId' as const;

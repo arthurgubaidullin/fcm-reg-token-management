@@ -39,7 +39,7 @@
       ],
       "@arthurgubaidullin/default-user": ["user/default/src/index.ts"],
       "@arthurgubaidullin/device": ["device/type/src/index.ts"],
-      "@arthurgubaidullin/device-id": ["device-id/type/src/index.ts"],
+      "@arthurgubaidullin/device-id-type": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/fake-messaging": ["messaging/fake/src/index.ts"],
       "@arthurgubaidullin/firebase-auth-adapter": [
         "auth/firebase-adapter/src/index.ts"

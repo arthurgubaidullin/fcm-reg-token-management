@@ -1,5 +1,5 @@
 import { Timestamp } from '@arthurgubaidullin/timestamp-type';
-import { DeviceId } from '@arthurgubaidullin/device-id';
+import { DeviceId } from '@arthurgubaidullin/device-id-type';
 import { UserId } from '@arthurgubaidullin/user';
 
 export interface SimplifiedRegToken {

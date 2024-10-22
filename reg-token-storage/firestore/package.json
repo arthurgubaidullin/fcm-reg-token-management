@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
-    "@arthurgubaidullin/device-id": "0.0.1",
     "@arthurgubaidullin/reg-token": "0.0.1",
     "@arthurgubaidullin/reg-token-storage": "0.0.1",
     "@arthurgubaidullin/user": "0.0.1",
     "firebase": "^10.14.1",
     "fp-ts": "^2.16.9",
     "@arthurgubaidullin/default-reg-token": "0.0.1",
-    "@arthurgubaidullin/reg-token-document": "0.0.1"
+    "@arthurgubaidullin/reg-token-document": "0.0.1",
+    "@arthurgubaidullin/device-id-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
