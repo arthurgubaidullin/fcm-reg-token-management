@@ -1,20 +1,33 @@
 import { BrowserProgram } from '@arthurgubaidullin/browser-program';
-import { Auth } from '@arthurgubaidullin/auth';
+import { Timestamp } from '@arthurgubaidullin/default-timestamp';
 import { Messaging } from '@arthurgubaidullin/messaging';
 import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage';
 
+const ONE_DAY_IN_MS = 24 * 60 * 60 * 1000;
+
 export class DefaultBrowserProgram implements BrowserProgram {
   constructor(
-    private readonly auth: Auth,
     private readonly messaging: Messaging,
     private readonly regTokenStorage: RegTokenStorage
   ) {}
 
   start() {
-    return () => this.stop();
+    const timer = setInterval(() => {
+      this.updateToken();
+    }, ONE_DAY_IN_MS);
+
+    return () => {
+      clearInterval(timer);
+    };
   }
 
-  private stop() {
-    return;
+  private async updateToken() {
+    const token = await this.messaging.getToken(Timestamp.now());
+
+    if (!token) {
+      return;
+    }
+
+    await this.regTokenStorage.updateRegToken(token);
   }
 }

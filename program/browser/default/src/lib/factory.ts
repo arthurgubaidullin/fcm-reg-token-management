@@ -27,7 +27,7 @@ export class DefaultBrouserPropramFactory {
         getFirestore(firebaseApp)
       );
 
-      instance = new DefaultBrowserProgram(auth, messaging, regTokenStorage);
+      instance = new DefaultBrowserProgram(messaging, regTokenStorage);
     }
     return instance;
   }
