@@ -31,9 +31,6 @@
       "@arthurgubaidullin/default-reg-token": [
         "reg-token/default/src/index.ts"
       ],
-      "@arthurgubaidullin/default-timestamp": [
-        "timestamp/default/src/index.ts"
-      ],
       "@arthurgubaidullin/default-user": ["user/default/src/index.ts"],
       "@arthurgubaidullin/device-id-type": ["device-id/type/src/index.ts"],
       "@arthurgubaidullin/device-type": ["device/type/src/index.ts"],
@@ -58,6 +55,9 @@
         "reg-token-storage/type/src/index.ts"
       ],
       "@arthurgubaidullin/reg-token-type": ["reg-token/type/src/index.ts"],
+      "@arthurgubaidullin/timestamp-factory": [
+        "timestamp/factory/src/index.ts"
+      ],
       "@arthurgubaidullin/timestamp-type": ["timestamp/type/src/index.ts"],
       "@arthurgubaidullin/user-type": ["user/type/src/index.ts"]
     }

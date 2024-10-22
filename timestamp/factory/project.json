@@ -1,7 +1,7 @@
 {
-  "name": "default-timestamp",
+  "name": "timestamp-factory",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "timestamp/default/src",
+  "sourceRoot": "timestamp/factory/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,9 +9,9 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/timestamp/default",
-        "main": "timestamp/default/src/index.ts",
-        "tsConfig": "timestamp/default/tsconfig.lib.json",
+        "outputPath": "dist/timestamp/factory",
+        "main": "timestamp/factory/src/index.ts",
+        "tsConfig": "timestamp/factory/tsconfig.lib.json",
         "assets": []
       }
     }

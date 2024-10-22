@@ -1,5 +1,5 @@
 import { BrowserProgram } from '@arthurgubaidullin/browser-program-type';
-import { Timestamp } from '@arthurgubaidullin/default-timestamp';
+import { Timestamp } from '@arthurgubaidullin/timestamp-factory';
 import { Messaging } from '@arthurgubaidullin/messaging-type';
 import { Permissions } from '@arthurgubaidullin/permissions-type';
 import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage-type';
