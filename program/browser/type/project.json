@@ -1,5 +1,5 @@
 {
-  "name": "browser-program",
+  "name": "browser-program-type",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "program/browser/type/src",
   "projectType": "library",

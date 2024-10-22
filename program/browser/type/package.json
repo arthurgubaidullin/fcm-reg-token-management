@@ -1,5 +1,5 @@
 {
-  "name": "@arthurgubaidullin/browser-program",
+  "name": "@arthurgubaidullin/browser-program-type",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0"

@@ -1,4 +1,4 @@
-import { BrowserProgram } from '@arthurgubaidullin/browser-program';
+import { BrowserProgram } from '@arthurgubaidullin/browser-program-type';
 import { Timestamp } from '@arthurgubaidullin/default-timestamp';
 import { Messaging } from '@arthurgubaidullin/messaging';
 import { Permissions } from '@arthurgubaidullin/permissions';

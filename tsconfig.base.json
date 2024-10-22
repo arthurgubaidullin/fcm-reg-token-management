@@ -19,7 +19,7 @@
       "@arthurgubaidullin/browser-permissions": [
         "permissions/browser/src/index.ts"
       ],
-      "@arthurgubaidullin/browser-program": [
+      "@arthurgubaidullin/browser-program-type": [
         "program/browser/type/src/index.ts"
       ],
       "@arthurgubaidullin/default-browser-program": [
