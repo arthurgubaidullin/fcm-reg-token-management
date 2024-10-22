@@ -55,7 +55,7 @@
       "@arthurgubaidullin/reg-token-firestore-storage": [
         "reg-token-storage/firestore/src/index.ts"
       ],
-      "@arthurgubaidullin/reg-token-storage": [
+      "@arthurgubaidullin/reg-token-storage-type": [
         "reg-token-storage/type/src/index.ts"
       ],
       "@arthurgubaidullin/timestamp-type": ["timestamp/type/src/index.ts"],

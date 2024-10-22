@@ -1,7 +1,7 @@
 import { DeviceId } from '@arthurgubaidullin/device-id-type';
 import { RegToken } from '@arthurgubaidullin/reg-token';
 import { DefaultRegToken } from '@arthurgubaidullin/default-reg-token';
-import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage';
+import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage-type';
 import { UserId } from '@arthurgubaidullin/user-type';
 import * as firestore from 'firebase/firestore';
 import { RegTokenDocument } from '@arthurgubaidullin/reg-token-document';
