@@ -1,0 +1,19 @@
+{
+  "name": "device",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "device/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/device/type",
+        "main": "device/type/src/index.ts",
+        "tsConfig": "device/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
