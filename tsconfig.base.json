@@ -57,6 +57,9 @@
       "@arthurgubaidullin/messaging": ["messaging/type/src/index.ts"],
       "@arthurgubaidullin/permissions": ["permissions/type/src/index.ts"],
       "@arthurgubaidullin/reg-token": ["reg-token/type/src/index.ts"],
+      "@arthurgubaidullin/reg-token-document": [
+        "reg-token/document/src/index.ts"
+      ],
       "@arthurgubaidullin/reg-token-set": ["reg-token-set/type/src/index.ts"],
       "@arthurgubaidullin/reg-token-set-repository": [
         "reg-token-set-repository/type/src/index.ts"

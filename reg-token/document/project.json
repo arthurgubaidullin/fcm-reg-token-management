@@ -1,0 +1,19 @@
+{
+  "name": "reg-token-document",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "reg-token/document/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/reg-token/document",
+        "main": "reg-token/document/src/index.ts",
+        "tsConfig": "reg-token/document/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
