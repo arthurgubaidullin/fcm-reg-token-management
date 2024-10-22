@@ -1,0 +1,19 @@
+{
+  "name": "reg-token-storage",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "reg-token-storage/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/reg-token-storage/type",
+        "main": "reg-token-storage/type/src/index.ts",
+        "tsConfig": "reg-token-storage/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
