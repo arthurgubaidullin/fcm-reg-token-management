@@ -44,6 +44,9 @@
       "@arthurgubaidullin/firebase-auth-adapter": [
         "auth/firebase-adapter/src/index.ts"
       ],
+      "@arthurgubaidullin/firebase-device-adapter": [
+        "device/firebase-adapter/src/index.ts"
+      ],
       "@arthurgubaidullin/firebase-messaging-adapter": [
         "messaging/firebase-adapter/src/index.ts"
       ],
