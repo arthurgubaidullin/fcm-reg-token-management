@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@arthurgubaidullin/auth": ["auth/type/src/index.ts"],
+      "@arthurgubaidullin/browser-program": [
+        "program/browser/type/src/index.ts"
+      ],
       "@arthurgubaidullin/default-device-id": [
         "device-id/default/src/index.ts"
       ],
