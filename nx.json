@@ -67,10 +67,11 @@
       "library": {
         "bundler": "tsc",
         "linter": "eslint",
-        "unitTestRunner": "jest",
+        "unitTestRunner": "vitest",
         "minimal": true,
         "strict": true,
-        "simpleName": true
+        "simpleName": true,
+        "testEnvironment": "jsdom"
       }
     },
     "@nx/react": {
