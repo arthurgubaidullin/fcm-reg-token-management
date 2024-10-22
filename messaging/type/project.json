@@ -1,5 +1,5 @@
 {
-  "name": "messaging",
+  "name": "messaging-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "messaging/type/src",
   "projectType": "library",

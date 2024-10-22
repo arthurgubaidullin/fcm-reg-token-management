@@ -6,14 +6,14 @@
     "firebase": "^10.14.1",
     "@arthurgubaidullin/firebase-auth-adapter": "0.0.1",
     "@arthurgubaidullin/firebase-messaging-adapter": "0.0.1",
-    "@arthurgubaidullin/messaging": "0.0.1",
     "@arthurgubaidullin/firebase-device-adapter": "0.0.1",
     "@arthurgubaidullin/reg-token-firestore-storage": "0.0.1",
     "@arthurgubaidullin/default-timestamp": "0.0.1",
     "@arthurgubaidullin/browser-permissions": "0.0.1",
     "@arthurgubaidullin/reg-token-storage-type": "0.0.1",
     "@arthurgubaidullin/browser-program-type": "0.0.1",
-    "@arthurgubaidullin/permissions-type": "0.0.1"
+    "@arthurgubaidullin/permissions-type": "0.0.1",
+    "@arthurgubaidullin/messaging-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
