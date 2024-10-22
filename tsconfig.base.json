@@ -47,7 +47,7 @@
         "messaging/firebase-adapter/src/index.ts"
       ],
       "@arthurgubaidullin/messaging": ["messaging/type/src/index.ts"],
-      "@arthurgubaidullin/permissions": ["permissions/type/src/index.ts"],
+      "@arthurgubaidullin/permissions-type": ["permissions/type/src/index.ts"],
       "@arthurgubaidullin/reg-token-document": [
         "reg-token/document/src/index.ts"
       ],

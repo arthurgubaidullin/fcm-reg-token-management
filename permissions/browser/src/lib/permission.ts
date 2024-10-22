@@ -1,4 +1,4 @@
-import { Permission as _Permission } from '@arthurgubaidullin/permissions';
+import { Permission as _Permission } from '@arthurgubaidullin/permissions-type';
 
 export class Permission implements _Permission {
   constructor(private readonly value: NotificationPermission) {}

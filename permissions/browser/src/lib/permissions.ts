@@ -1,4 +1,4 @@
-import { Permissions as Permissions } from '@arthurgubaidullin/permissions';
+import { Permissions as Permissions } from '@arthurgubaidullin/permissions-type';
 import { Permission } from './permission';
 
 export class BrowserPermissions implements Permissions {

@@ -1,7 +1,7 @@
 import { BrowserProgram } from '@arthurgubaidullin/browser-program-type';
 import { Timestamp } from '@arthurgubaidullin/default-timestamp';
 import { Messaging } from '@arthurgubaidullin/messaging';
-import { Permissions } from '@arthurgubaidullin/permissions';
+import { Permissions } from '@arthurgubaidullin/permissions-type';
 import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage-type';
 
 const ONE_DAY_IN_MS = 24 * 60 * 60 * 1000;

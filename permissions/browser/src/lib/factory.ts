@@ -1,4 +1,4 @@
-import { Permissions as _Permissions } from '@arthurgubaidullin/permissions';
+import { Permissions as _Permissions } from '@arthurgubaidullin/permissions-type';
 import { BrowserPermissions as _BrowserPermissions } from './permissions';
 
 export let instance: _Permissions | null = null;
