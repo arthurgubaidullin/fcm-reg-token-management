@@ -61,9 +61,6 @@
         "reg-token-storage/firestore/src/index.ts"
       ],
       "@arthurgubaidullin/reg-token-set": ["reg-token-set/type/src/index.ts"],
-      "@arthurgubaidullin/reg-token-set-repository": [
-        "reg-token-set-repository/type/src/index.ts"
-      ],
       "@arthurgubaidullin/reg-token-storage": [
         "reg-token-storage/type/src/index.ts"
       ],
