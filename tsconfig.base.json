@@ -50,7 +50,6 @@
       "@arthurgubaidullin/firebase-messaging-adapter": [
         "messaging/firebase-adapter/src/index.ts"
       ],
-      "@arthurgubaidullin/in-memory-auth": ["auth/in-memory/src/index.ts"],
       "@arthurgubaidullin/messaging": ["messaging/type/src/index.ts"],
       "@arthurgubaidullin/permissions": ["permissions/type/src/index.ts"],
       "@arthurgubaidullin/reg-token": ["reg-token/type/src/index.ts"],
