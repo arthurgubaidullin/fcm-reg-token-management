@@ -6,7 +6,9 @@
     "@arthurgubaidullin/browser-program": "0.0.1",
     "firebase": "^10.14.1",
     "@arthurgubaidullin/firebase-auth-adapter": "0.0.1",
-    "@arthurgubaidullin/auth": "0.0.1"
+    "@arthurgubaidullin/auth": "0.0.1",
+    "@arthurgubaidullin/firebase-messaging-adapter": "0.0.1",
+    "@arthurgubaidullin/messaging": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
