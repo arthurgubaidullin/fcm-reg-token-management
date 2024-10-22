@@ -7,8 +7,8 @@
     "@arthurgubaidullin/default-reg-token": "0.0.1",
     "firebase": "^10.14.1",
     "@arthurgubaidullin/device": "0.0.1",
-    "@arthurgubaidullin/auth": "0.0.1",
-    "@arthurgubaidullin/timestamp-type": "0.0.1"
+    "@arthurgubaidullin/timestamp-type": "0.0.1",
+    "@arthurgubaidullin/auth-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

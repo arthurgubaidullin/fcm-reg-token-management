@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
-    "@arthurgubaidullin/auth": "0.0.1",
     "@arthurgubaidullin/default-user": "0.0.1",
-    "firebase": "^10.14.1"
+    "firebase": "^10.14.1",
+    "@arthurgubaidullin/auth-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

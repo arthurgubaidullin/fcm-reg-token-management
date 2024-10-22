@@ -1,5 +1,5 @@
 {
-  "name": "auth",
+  "name": "auth-type",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "auth/type/src",
   "projectType": "library",

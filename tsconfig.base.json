@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@arthurgubaidullin/auth": ["auth/type/src/index.ts"],
+      "@arthurgubaidullin/auth-type": ["auth/type/src/index.ts"],
       "@arthurgubaidullin/browser-permissions": [
         "permissions/browser/src/index.ts"
       ],

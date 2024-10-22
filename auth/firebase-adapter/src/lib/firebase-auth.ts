@@ -1,4 +1,4 @@
-import { Auth } from '@arthurgubaidullin/auth';
+import { Auth } from '@arthurgubaidullin/auth-type';
 import { DefaultUser, DefaultUserId } from '@arthurgubaidullin/default-user';
 import * as FirbaseAuth from 'firebase/auth';
 
