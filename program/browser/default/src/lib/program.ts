@@ -1,12 +1,14 @@
 import { BrowserProgram } from '@arthurgubaidullin/browser-program';
 import { Timestamp } from '@arthurgubaidullin/default-timestamp';
 import { Messaging } from '@arthurgubaidullin/messaging';
+import { Permissions } from '@arthurgubaidullin/permissions';
 import { RegTokenStorage } from '@arthurgubaidullin/reg-token-storage';
 
 const ONE_DAY_IN_MS = 24 * 60 * 60 * 1000;
 
 export class DefaultBrowserProgram implements BrowserProgram {
   constructor(
+    private readonly permissions: Permissions,
     private readonly messaging: Messaging,
     private readonly regTokenStorage: RegTokenStorage
   ) {}

@@ -3,6 +3,7 @@ import { DefaultBrowserProgram } from './program';
 import { FirebaseApp } from 'firebase/app';
 import { FirebaseAuthAdapter } from '@arthurgubaidullin/firebase-auth-adapter';
 import { FirebaseMessagingAdapter } from '@arthurgubaidullin/firebase-messaging-adapter';
+import { BrowserPermissions } from '@arthurgubaidullin/browser-permissions';
 import { FirebaseDeviceAdapter } from '@arthurgubaidullin/firebase-device-adapter';
 import { getInstallations } from 'firebase/installations';
 import { getMessaging } from 'firebase/messaging';
@@ -27,7 +28,13 @@ export class DefaultBrouserPropramFactory {
         getFirestore(firebaseApp)
       );
 
-      instance = new DefaultBrowserProgram(messaging, regTokenStorage);
+      const permissions = BrowserPermissions.default();
+
+      instance = new DefaultBrowserProgram(
+        permissions,
+        messaging,
+        regTokenStorage
+      );
     }
     return instance;
   }
