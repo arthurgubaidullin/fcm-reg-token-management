@@ -43,6 +43,9 @@
       "@arthurgubaidullin/firebase-messaging-adapter": [
         "messaging/firebase-adapter/src/index.ts"
       ],
+      "@arthurgubaidullin/function-runner-adapter": [
+        "runner/function-adapter/src/index.ts"
+      ],
       "@arthurgubaidullin/launch-scheduler-factory": [
         "launch-scheduler/factory/src/index.ts"
       ],
