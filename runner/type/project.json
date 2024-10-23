@@ -1,0 +1,19 @@
+{
+  "name": "runner-type",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "runner/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/runner/type",
+        "main": "runner/type/src/index.ts",
+        "tsConfig": "runner/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}

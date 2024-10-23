@@ -73,6 +73,7 @@
         "reg-token-storage/type/src/index.ts"
       ],
       "@arthurgubaidullin/reg-token-type": ["reg-token/type/src/index.ts"],
+      "@arthurgubaidullin/runner-type": ["runner/type/src/index.ts"],
       "@arthurgubaidullin/timestamp-factory": [
         "timestamp/factory/src/index.ts"
       ],
