@@ -6,7 +6,10 @@ export class LaunchSchedulerFactory {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   private constructor() {}
 
-  static create(job: () => void, options: LaunchSchedulerOptions) {
+  static create(
+    job: () => void | Promise<void>,
+    options?: LaunchSchedulerOptions
+  ) {
     const _options = new Options(options);
 
     return new LaunchScheduler(job, _options);
