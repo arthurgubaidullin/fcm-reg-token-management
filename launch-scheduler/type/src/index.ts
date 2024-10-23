@@ -1,1 +1,2 @@
-export * from './lib/launch-scheduler-type';
+export * from './lib/factory';
+export * from './lib/type';
