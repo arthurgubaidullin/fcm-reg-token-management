@@ -53,6 +53,9 @@
       "@arthurgubaidullin/network-status-type": [
         "network-status-type/src/index.ts"
       ],
+      "@arthurgubaidullin/network-status-window-adapter": [
+        "network-status-window-adapter/src/index.ts"
+      ],
       "@arthurgubaidullin/permissions-type": ["permissions/type/src/index.ts"],
       "@arthurgubaidullin/reg-token-document": [
         "reg-token/document/src/index.ts"
