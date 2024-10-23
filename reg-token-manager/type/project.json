@@ -1,0 +1,19 @@
+{
+  "name": "reg-token-manager-type",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "reg-token-manager/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/reg-token-manager/type",
+        "main": "reg-token-manager/type/src/index.ts",
+        "tsConfig": "reg-token-manager/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
