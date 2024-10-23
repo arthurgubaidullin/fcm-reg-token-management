@@ -1,0 +1,19 @@
+{
+  "name": "reg-token-manager-factory",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "reg-token-manager/factory/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/reg-token-manager/factory",
+        "main": "reg-token-manager/factory/src/index.ts",
+        "tsConfig": "reg-token-manager/factory/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
