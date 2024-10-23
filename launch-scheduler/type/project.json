@@ -1,0 +1,19 @@
+{
+  "name": "launch-scheduler-type",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "launch-scheduler/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/launch-scheduler/type",
+        "main": "launch-scheduler/type/src/index.ts",
+        "tsConfig": "launch-scheduler/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
