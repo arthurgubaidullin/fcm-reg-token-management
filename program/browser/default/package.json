@@ -12,7 +12,9 @@
     "@arthurgubaidullin/browser-program-type": "0.0.1",
     "@arthurgubaidullin/permissions-type": "0.0.1",
     "@arthurgubaidullin/reg-token-manager-factory": "0.0.1",
-    "@arthurgubaidullin/reg-token-manager-type": "0.0.1"
+    "@arthurgubaidullin/reg-token-manager-type": "0.0.1",
+    "@arthurgubaidullin/launch-scheduler-factory": "0.0.1",
+    "@arthurgubaidullin/launch-scheduler-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",

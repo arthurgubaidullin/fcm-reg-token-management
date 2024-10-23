@@ -10,6 +10,7 @@ import { getMessaging } from 'firebase/messaging';
 import { RegTokenFirestoreStorage } from '@arthurgubaidullin/reg-token-firestore-storage';
 import { getFirestore } from 'firebase/firestore';
 import { RegTokenManager } from '@arthurgubaidullin/reg-token-manager-factory';
+import { LaunchSchedulerFactory } from '@arthurgubaidullin/launch-scheduler-factory';
 
 let instance: DefaultBrowserProgram | null = null;
 
@@ -33,7 +34,15 @@ export class DefaultBrouserPropramFactory {
 
       const regTokenManager = new RegTokenManager(messaging, regTokenStorage);
 
-      instance = new DefaultBrowserProgram(permissions, regTokenManager);
+      const scheduler = LaunchSchedulerFactory.create(async () => {
+        await regTokenManager.updateToken();
+      });
+
+      instance = new DefaultBrowserProgram(
+        permissions,
+        regTokenManager,
+        scheduler
+      );
     }
     return instance;
   }
