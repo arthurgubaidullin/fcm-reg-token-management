@@ -6,7 +6,8 @@
     "@arthurgubaidullin/timestamp-factory": "0.0.1",
     "@arthurgubaidullin/messaging-type": "0.0.1",
     "@arthurgubaidullin/reg-token-storage-type": "0.0.1",
-    "@arthurgubaidullin/reg-token-manager-type": "0.0.1"
+    "@arthurgubaidullin/reg-token-manager-type": "0.0.1",
+    "@arthurgubaidullin/reg-token-type": "0.0.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
