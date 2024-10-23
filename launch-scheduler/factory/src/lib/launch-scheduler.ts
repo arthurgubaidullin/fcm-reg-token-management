@@ -1,8 +1,9 @@
+import { Runner } from '@arthurgubaidullin/runner-type';
 import { Options } from './options';
 
 export const ONE_SECOND_IN_MS = 1 * 1000;
 
-export class LaunchScheduler {
+export class LaunchScheduler implements Runner {
   private readonly options: Options;
   private readonly job: () => void;
 
