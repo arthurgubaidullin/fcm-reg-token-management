@@ -1,0 +1,19 @@
+{
+  "name": "launch-scheduler-factory",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "launch-scheduler/factory/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/launch-scheduler/factory",
+        "main": "launch-scheduler/factory/src/index.ts",
+        "tsConfig": "launch-scheduler/factory/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}
