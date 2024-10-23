@@ -1,0 +1,19 @@
+{
+  "name": "network-status-type",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "network-status/type/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/network-status/type",
+        "main": "network-status/type/src/index.ts",
+        "tsConfig": "network-status/type/tsconfig.lib.json",
+        "assets": []
+      }
+    }
+  }
+}

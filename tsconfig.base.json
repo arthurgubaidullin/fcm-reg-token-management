@@ -51,7 +51,7 @@
       ],
       "@arthurgubaidullin/messaging-type": ["messaging/type/src/index.ts"],
       "@arthurgubaidullin/network-status-type": [
-        "network-status-type/src/index.ts"
+        "network-status/type/src/index.ts"
       ],
       "@arthurgubaidullin/network-status-window-adapter": [
         "network-status-window-adapter/src/index.ts"
