@@ -9,6 +9,7 @@ import { getInstallations } from 'firebase/installations';
 import { getMessaging } from 'firebase/messaging';
 import { RegTokenFirestoreStorage } from '@arthurgubaidullin/reg-token-firestore-storage';
 import { getFirestore } from 'firebase/firestore';
+import { RegTokenManager } from '@arthurgubaidullin/reg-token-manager-factory';
 
 let instance: DefaultBrowserProgram | null = null;
 
@@ -30,11 +31,9 @@ export class DefaultBrouserPropramFactory {
 
       const permissions = BrowserPermissions.default();
 
-      instance = new DefaultBrowserProgram(
-        permissions,
-        messaging,
-        regTokenStorage
-      );
+      const regTokenManager = new RegTokenManager(messaging, regTokenStorage);
+
+      instance = new DefaultBrowserProgram(permissions, regTokenManager);
     }
     return instance;
   }
